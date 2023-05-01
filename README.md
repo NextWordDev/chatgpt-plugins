@@ -7,6 +7,14 @@ This repository contains examples of ChatGPT plugins that you can use as a start
 ## Stock and Crypto Price Plugin
 This ChatGPT plugin allows you to fetch real-time stock and cryptocurrency prices directly within ChatGPT. With this plugin, you can easily inquire about the latest trading prices for popular stocks like Apple (AAPL) and cryptocurrencies like Bitcoin (BTC).
 
+### Usage
+
+Here are some example queries you can use with this plugin:
+
+- "Where is Tesla trading at?"
+- "What is the current price of ETH/USD?"
+- "How much is Amazon stock worth right now?"
+
 ### Features
 
 - Fetch real-time stock prices for publicly traded companies

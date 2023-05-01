@@ -34,14 +34,6 @@ From the front-end:
    - "What is the current price of Apple stock?"
    - "What is the current price of Bitcoin in USD?"
 
-### Usage
-
-Here are some example queries you can use with this plugin:
-
-- "Where is Tesla trading at?"
-- "What is the current price of ETH/USD?"
-- "How much is Amazon stock worth right now?"
-
 ### Contributing
 
 We welcome contributions to this plugin! If you have any ideas for improvements or new features, please feel free to open an issue or submit a pull request.

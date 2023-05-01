@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "stock_prices_execution_portfolios",
+    "name_for_human": "FinanceGPT",
+    "description_for_model": "Plugin for fetching stock prices, executing orders, and managing portfolios.",
+    "description_for_human": "PPlugin for fetching stock prices, executing orders, and managing portfolios.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "http://localhost:5000/.well-known/openapi.yaml"
+    },
+    "logo_url": "http://localhost:5000/.well-known/logo.png",
+    "contact_email": "hello@contact.com", 
+    "legal_info_url": "hello@legal.com"
+  }
+  
+  

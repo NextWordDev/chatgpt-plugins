@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "finance-plugin"
+version = "0.1.0"
+description = ""
+authors = ["john <public@nextword.dev>"]
+readme = "README.md"
+packages = [{include = "server"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+openai = "^0.27.2"
+python-dotenv = "^0.21.1"
+pydantic = "^1.10.5"
+tenacity = "^8.2.1"
+tiktoken = "^0.2.0"
+numpy = "^1.24.2"
+alpaca-py = "^0.8.0"
+
+[tool.poetry.scripts]
+start = "server.main:start"
+dev = "server.main:start"

@@ -24,17 +24,26 @@ Here are some example queries you can use with this plugin:
 ### Getting Started
 
 To get started with this plugin, follow these steps:
+1. First, clone this repo.
 
-First, start the FASTAPI server, which will get the Rest API for your plugin up and running. 
+2. Next, get an API key from [Alpaca markets](https://alpaca.markets/docs/api-references/market-data-api/) 
+
+Then create a `.env` file in the root directory like this:
+```
+ACCESS_KEY=<access>
+SECRET_KEY=<secret>
+```
+
+3. Next, start the FASTAPI server, which will get the Rest API for your plugin up and running. 
 ```
 poetry install && poetry run dev 
 ```
 The above will run the server at port 5000. 
 
-Now, you are ready to install the plugin and start using it. 
-
-Note, you would first need access to the developer preview of ChatGPT plugins, which you can apply for here:
+4. Note, you would first need access to the developer preview of ChatGPT plugins, which you can apply for here:
 * https://openai.com/waitlist/plugins 
+
+5. Now, you are ready to install the plugin and start using it. 
 
 From the front-end:
 1. Install the plugin from the ChatGPT plugin store.
